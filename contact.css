@@ -1,0 +1,10 @@
+input{
+  width: 80%;
+}
+
+input.ma{
+  height: 17.5vh;
+}
+.url{
+   display: none;
+ }

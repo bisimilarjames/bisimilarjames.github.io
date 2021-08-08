@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<!--<script type="text/javascript" src="js/pw.js"></script>-->
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <link rel='stylesheet' href='AcademicGlobalStyle.css'/>
+    <link rel='stylesheet' href='cv.css'/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,300;1,400&family=Montserrat&display=swap" rel="stylesheet">
+    <title>James G. Wright Security Reseacher</title>
+    <link rel="icon" href="icons/tri.png">
+  </head>
+
+  <body>
+    <div class="page">
+      <div class="title-container">
+        <div class="title">
+          <h1>James G. Wright</h1>
+          <h3> Security protocol researcher</h3>
+        </div>
+      </div>
+      <div class="menu-container">
+        <div class="menu">
+          <a class="menu-button" href="index.html" tabindex="1">Home</a>
+          <a class="menu-button" href="cv.html" tabindex="2">CV</a>
+          <a class="menu-button" href="cv.html#pubs" tabindex="3">Publications</a>
+          <a class="menu-button" href="proj.html" tabindex="4">Projects</a>
+          <!--<a class="menu-button" href="blog.html">Blog</a>
+          <a class="menu-button" href="misc.html">Misc</a>
+          <a class="menu-button" href="contact.html" tabindex="5">Contact</a>-->
+          <a class="menu-button" onclick='openMailer(this);' href="" tabindex="5">Contact</a>
+        </div>
+      </div>
+
+
+      <div class="sidebar">
+          <img src="gallery\avatar1.jpg" alt="A potrait of James G. Wright"  style="width:175px;height:175px;" class="port">
+      </div>
+
+      <div class="content">
+        <div class="cv" tabindex="6">
+          <h2>Curriculum Vitae</h2>
+          <br>
+
+          <p>My academic CV can be downloaded <a href="cvs/ACV.pdf" tabindex="7">here</a>,
+          and my professional CV <a href="cvs/CVB.pdf" tabindex="8">here</a>.</p>
+          <br>
+          <div class="postions" tabindex="9">
+            <h3>Positions</h3>
+            <br>
+
+            <p><b>2020</b></p>
+            <p><b>Researcher</b></p>
+
+            <p><a href="https://www.ntnu.edu/ccis/center-for-cyber-and-information-security" tabindex="10">Centre for Cyber and Information Security</a></p>
+            <p>Supervisor: <a href="http://www.wolthusen.com/" tabindex="11">Prof. Stephen D. Wolthusen</a></p>
+            <p>Norwegian University of Science and Technology</p>
+            <p>Norway</p>
+            <div class="publinks">
+              <button onclick="myFunction('NTNU')" tabindex="12" class="descrip">Expand</button>
+            </div>
+            <div id="NTNU" class="abstract">
+              <br>
+                <p>Developed a taxonomy of attack vectors and disruptions in grid level energy storage
+                  systems, within a modified IEC27005 and FAIR risk frameworks.</p>
+                <p>Developed a research and development plan of technical countermeasures.</p>
+                <p>Communicated a development plan to academic and industrial stakeholders.</p>
+            </div>
+            <br>
+            <br>
+
+            <p><b>2013</b></p>
+            <p><b>Accelerator physicist</b></p>
+            <p><a href="https://www.cockcroft.ac.uk/" tabindex="13">Cockcroft institue</a></p>
+            <p>Science and Technology Facilities Council</p>
+            <p>Supervisor: <a href="https://www.astec.stfc.ac.uk/Pages/James-Jones-Senior-Accelerator-Physicist.aspx" tabindex="14">James Jones</a></p>
+            <p>UK</p>
+            <div class="publinks">
+              <button onclick="myFunction('Cock')" tabindex="15" class="descrip">Expand</button>
+            </div>
+            <div id="Cock" class="abstract">
+              <br>
+                <p>Built software that interfaced the Versatile Electron Linear Accelerator’s control with a particle physics simulation package in python.</p>
+                <p>Deployed a MYSQL database to backup and restore experiment data.</p>
+          </div>
+          <br>
+          <br>
+          </div>
+
+          <div class="education" tabindex="16">
+            <h3>Education</h3>
+            <br>
+
+            <p><b>2015-2020</b></p>
+            <p><b>PhD. Information Security</b></p>
+            <p><a href="https://www.royalholloway.ac.uk/research-and-teaching/departments-and-schools/information-security/" tabindex="17">Information Security Group</a></p>
+            <p>Royal Holloway, University of London</p>
+            <p>Thesis: <b>On the Use of Queuing Networks to Test the Robustness of Security Protocols:</b></p>
+            <p><b>An Analysis of the Security Vulnerabilities of IEC61850 & IEC62351</b></p>
+            <p>Advisor: <a href="http://www.wolthusen.com/" tabindex="18">Prof. Stephen D. Wolthusen</a></p>
+            <a href="https://pure.royalholloway.ac.uk/portal/files/39438014/2020WrightJGPhD.pdf" tabindex="19">Published </a><a href="papers/thesis.pdf" tabindex="20"> [1]</a>
+            <div class="publinks">
+              <button onclick="myFunction('RHUL')" tabindex="21" class="descrip">Expand</button>
+            </div>
+            <div id="RHUL" class="abstract">
+              <br>
+                <p>Developed and implemented a probabilistic formal method for verifying security protocols against DoS and De-synchronisation attacks in Matlab.</p>
+                <p>Deployed the implementation against the Smart Grid protocols IEC61850 and IEC60870. Discovered flaws in the multicast messaging services that allow low packet frequency denial of service attacks, and a de-synchronisation attack against the protocol’s control systems.</p>
+                <p>Created an abstract model to calculate the probability of success of injection attacks against a device.</p>
+            </div>
+            <br>
+            <br>
+
+            <p><b>2010-2015</b></p>
+            <p><b>MPhys Physics with Theoretical Physcis</b> - <em>2:1</em></p>
+            <p><a href="https://www.physics.manchester.ac.uk/" tabindex="22">Physics department</a></p>
+            <p>University of Manchester</p>
+            <p>Thesis: <b>A Comparison of the Capabilities of the Plasma Accelerator Research Station
+            at the </b></p>
+            <p><b>Proposed Compact Linear Accelerator for Research and Applications facility with linear limit of Plasma Wakefield theory</b></p>
+            <p>Advisor: <a href="http://www.hep.manchester.ac.uk/u/xiaguo/" tabindex="23">Dr. Guoxing Xia</a></p>
+          </div>
+
+          <br>
+          <div class="prizes" tabindex="24">
+            <h3>Prizes, Awards, and Fellowships</h3>
+            <br>
+
+            <p><b>2017</b></p>
+            <p>Young CRITIS Award - <em>Third place</em></p>
+            <div class="publinks">
+              <button onclick="myFunction('YCRIT')" tabindex="25" class="descrip">Expand</button>
+            </div>
+            <div id="YCRIT" class="abstract">
+              <br>
+              <p>Won for the paper 'De-synchronisation Attack Modelling in Real-Time Protocols using Queue
+                Networks: Attacking the ISO/IEC 61850 Substation Automation Protocol.'</p>
+            </div>
+            <br>
+            <br>
+
+            <p><b>2013</b></p>
+            <p>University of California Education Abroad Program</p>
+          </div>
+          <br>
+
+          <div id="pubs" class="publications" tabindex="26">
+            <h3>Publications</h3>
+            <br>
+            <p>J. G. Wright and S. D. Wolthusen</p>
+            <p><b>A Formal Method for Discerning the Functional Limits of Security Protocols in
+              the Face of Disruptive Advresaries.</b></p>
+            <p>Unpublished Manuscript</p>
+            <br>
+
+            <p>J. G. Wright and S. D. Wolthusen</p>
+            <p><b>Time Accuracy De-Synchronisation Attacks Against IEC 60870-5-104 and
+              IEC 61850 Protocols.</b></p>
+            <p>In <em>2019 IEEE Power Energy Society Innovative Smart Grid Technologies Conference
+                (ISGT)</em>,</p>
+            <p>pages 1–5, 2019.</p>
+            <div class="publinks">
+              <a href="https://ieeexplore.ieee.org/document/8791558" tabindex="27" class="cpub">Published</a>
+              <a href="papers/ISGTNA.pdf" tabindex="28" class="cpre">Preprint</a>
+              <button onclick="myFunction('myDIV')" tabindex="29" class="cab">Abstract</button>
+            </div>
+            <div id="myDIV" class="abstract">
+              <br>
+              <p>Accurate time synchronisation is a key requirement for control and automation protocols with (near) real time requirements such as the IEC 60870-5-104 and 61850 family of standards relying on IP transport, and also represents an attractive attack vector against power systems.
+                We propose a modelling and analytical technique based on queueing theory and study model the behaviour of both protocol standard families for deliberately limited, weak adversaries.
+                We demonstrate the efficacy of the model by identifying a way of undermining measurement and control signal QoS whilst remaining compliant with standards merely by varying inter-arrival rates of legitimate traffic, resulting in de-synchronisation.</p>
+            </div>
+            <br>
+            <br>
+
+            <p>J. G. Wright and S. D. Wolthusen</p>
+            <p><b>De-synchronisation Attack Modelling in Real-Time Protocols using Queue
+              Networks: Attacking the ISO/IEC 61850 Substation Automation Protocol.</b></p>
+            <p>In <em>Critical Information Infrastructures Security</em>,</p>
+            <p>pages 131–143, 2018.</p>
+            <div class="publinks">
+              <a href="https://link.springer.com/chapter/10.1007/978-3-319-99843-5_12" tabindex="30" class="cpub">Published</a>
+              <a href="papers/CRITIS2018.pdf" tabindex="31" class="cpre">Preprint</a>
+              <button onclick="myFunction('myDIV1')" tabindex="32" class="cab">Abstract</button>
+            </div>
+            <div id="myDIV1" class="abstract">
+              <br>
+              <p>Applications developed for Supervisory Control And Data Acquisition (SCADA) protocols in several domains, particularly the energy sector, must satisfy hard real-time constraints to ensure the safety of the systems they are deployed on. These systems are highly sensitive to Quality of Service (QoS) violations, but it is not always clear whether a compliant implementation will satisfy the stated QoS of the standard. This paper proposes a framework for studying a protocol’s QoS properties based on a queuing network approach that offers a number of advantages over state machine or model-checking approaches.</p>
+              <br>
+              <p>The authors describe the framework as an instance of a network of M/M/1/K of queues with the block-after-service discipline, to allow for the analysis of probabilistic packet flows in valid protocol runs. This framework allows for the study of denial of service (DoS), performance degradation, and de-synchronisation attacks. The model is validated by a tool allowing automation of queue network analysis, and is used to demonstrate a possible breach of the QoS guarantees of the ISO/IEC 61850-7-2 substation automation standard with a de-synchronisation attack.</p>
+            </div>
+            <br>
+            <br>
+
+            <p>J. G. Wright and S. D. Wolthusen</p>
+            <p><b> Stealthy Injection Attacks Against IEC61850’s GOOSE Messaging Service.</b></p>
+            <p>In <em>2018 IEEE PES Innovative Smart Grid Technologies Conference Europe (ISGT-Europe)</em>,</p>
+            <p>pages 1–6, 2018.</p>
+            <div class="publinks">
+              <a href="https://ieeexplore.ieee.org/document/8571518" tabindex="33" class="cpub">Published</a>
+              <a href="papers/ISGTE.pdf" tabindex="34" class="cpre">Preprint</a>
+              <button onclick="myFunction('myDIV2')" tabindex="35" class="cab">Abstract</button>
+            </div>
+            <div id="myDIV2" class="abstract">
+              <br>
+              <p>IEC61850 and IEC62351 combined provide a set of security promises for the communications channels that are used to run a substation automation system (SAS), that use IEC61850 based technologies. However, one area that is largely untouched by these security promises is the generic object oriented substation events (GOOSE) messaging service. GOOSE is designed to multicast commands and data across a substation within hard real time quality of service (QoS) requirements. This means that GOOSE is unable to implement the required security technologies as the added latency to any message would violate the QoS.</p>
+            </div>
+            <br>
+            <br>
+
+            <p>J. G. Wright and S. D. Wolthusen</p>
+            <p><b>Access Control and Availability Vulnerabilities in the ISO/IEC 61850 Substation Automation Protocol.</b></p>
+            <p>In <em>Critical Information Infrastructures Security</em>,</p>
+            <p>pages 239–251, 2017.</p>
+            <div class="publinks">
+              <a href="https://link.springer.com/chapter/10.1007/978-3-319-71368-7_20" tabindex="36" class="cpub">Published</a>
+              <a href="papers/CRITIS2017.pdf" tabindex="37" class="cpre">Preprint</a>
+              <button onclick="myFunction('myDIV3')" tabindex="38" class="cab">Abstract</button>
+            </div>
+            <div id="myDIV3" class="abstract">
+              <br>
+              <p>The ISO/IEC 61850 protocol for substation automation is a key component for the safe and efficient operation of smart grids, whilst offering a substantial range of functions. While extension standards, particularly ISO/IEC 62351 provide further security controls, the baseline protocol offers the assurances of access control and availability. In this paper a systematic study of selected aspects of the basic ISO/IEC 61850 protocol demonstrates that protocol-level vulnerabilities exist. The main finding is the development of a credential interception attack allowing an adversary, without credentials, to hijack a session during an initial association; the feasibility of this attack is proven using a formal language representation. A second attack based on a workflow amplification attack which relies on the assumptions in the protocol’s substation event model, which is independent of layered security controls and only relies on the protocol’s communication patterns is shown.
+              </p>
+            </div>
+            <br>
+            <br>
+
+            <p>J. G. Wright and S. D. Wolthusen</p>
+            <p><b>Limitations of IEC62351-3’s Public Key Management.</b></p>
+            <p>In <em>In 2016 IEEE 24th International Conference on Network Protocols (ICNP)</em>,</p>
+            <p>pages 1–6, 2016.</p>
+            <div class="publinks">
+              <a href="https://ieeexplore.ieee.org/abstract/document/7785322" tabindex="39" class="cpub">Published</a>
+              <a href="papers/ICNP.pdf" tabindex="40" class="cpre">Preprint</a>
+              <button onclick="myFunction('myDIV4')" tabindex="41" class="cab">Abstract</button>
+            </div>
+            <div id="myDIV4" class="abstract">
+              <br>
+              <p>The ISO/IEC 62351 standard provides a set of security controls and protocols for communications in smart grids based on the ISO/IEC 60870, 61850, and DNP3 standards. It offers the protection goals of confidentiality, integrity, and authentication. In this paper we perform a systematic study of the ISO/IEC 62351-3 standard regarding the use of public key infrastructure in smart grid communication. We show that the standard at present does not align with the quality of service requirements for performance and interoperability in the ISO/IEC 61850 standard and thereby may jeopardise effective operations. We demonstrate that it is possible to claim conformance with the ISO/IEC 62351-3 standard but be vulnerable to denial of service attacks arising from insufficiently specified behaviour for public key certificate validation and revocation. Further issues can give rise to downgrade attacks against cipher suites and protocols used, allowing a man-in-the-middle attacks contrary to the standard's claims.
+              </p>
+            </div>
+            <br>
+            <br>
+
+            <p>G. Xia, Y. Nie, O. Mete, K. Hanahoe, M. Dover, M. Wigram, J. G. Wright, J. Zhang, J. Smith, T. Pacey,
+              Y. Li, Y. Wei, and C. Welsch.</p>
+            <p><b>Plasma Wakefield Acceleration at CLARA Facility in Daresbury Laboratory</b></p>
+            <p>In <em>Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and
+              Associated Equipment</em>,</p>
+            <p>829:43–49, 2016.</p>
+            <div class="publinks">
+              <a href="https://www.sciencedirect.com/science/article/abs/pii/S0168900216000103" tabindex="42" class="ppub">Published</a>
+              <button onclick="myFunction('myDIV5')" tabindex="43" class="pab">Abstract</button>
+            </div>
+            <div id="myDIV5" class="abstract">
+              <br>
+              <p>A plasma accelerator research station (PARS) has been proposed to study the key issues in electron driven plasma wakefield acceleration at CLARA facility in Daresbury Laboratory. In this paper, the quasi-nonlinear regime of beam driven plasma wakefield acceleration is analysed. The wakefield excited by various CLARA beam settings are simulated by using a 2D particle-in-cell (PIC) code. For a single drive beam, an accelerating gradient up to 3 GV/m can be achieved. For a two bunch acceleration scenario, simulation shows that a witness bunch can achieve a significant energy gain in a 10–50 cm long plasma cell.
+              </p>
+            </div>
+            <br>
+            <br>
+
+            <p>G. Xia, Y. Nie, O. Mete, K. Hanahoe, M. Dover, M. Wigram, J. G. Wright, J. Zhang, J. Smith, T. Pacey,
+              Y. Li, Y. Wei, and C. Welsch.</p>
+            <p><b>Design Studies and Commissioning Plans for PARS Experimental Program.</b></p>
+            <p>In <em> 6th International Particle Accelerator Conference</em>,</p>
+            <p>page WEPWA048, 2015.</p>
+            <div class="publinks">
+              <a href="https://inspirehep.net/literature/1369159" tabindex="44" class="ppub">Published</a>
+              <button onclick="myFunction('myDIV6')" tabindex="45" class="pab">Abstract</button>
+            </div>
+            <div id="myDIV6" class="abstract">
+              <br>
+              <p>PARS (Plasma Acceleration Research Station) is an electron beam driven plasma wakefield acceleration test stand proposed for VELA/CLARA facility in Daresbury Laboratory. In order to optimise various operational configurations, 2D numerical studies were performed by using VSIM for a range of parameters such as bunch length, radius, plasma density and positioning of the bunches with respect to each other for the two-beam acceleration scheme. In this paper, some of these numerical studies and considered measurement methods are presented.</p>
+            </div>
+            <br>
+            <br>
+
+            <p>G. Xia, Y. Nie, O. Mete, K. Hanahoe, M. Dover, M. Wigram, J. G. Wright, J. Zhang, J. Smith, T. Pacey,
+              Y. Li, Y. Wei, and C. Welsch.</p>
+            <p><b>Design Studies and Commissioning Plans for PARS Experimental Program.</b></p>
+            <p>In <em> Physics of Plasmas</em>,</p>
+            <p>22(10):103117, 2015.</p>
+            <div class="publinks">
+              <a  href="https://aip.scitation.org/doi/10.1063/1.4934711" tabindex="46" class="ppub">Published</a>
+              <button onclick="myFunction('myDIV7')" tabindex="47" class="pab">Abstract</button>
+            </div>
+            <div id="myDIV7" class="abstract">
+              <br>
+              <p>Plasma acceleration research station is an electron beam driven plasma wakefield acceleration test stand proposed for CLARA facility in Daresbury Laboratory. In this paper, the interaction between the electron beam and the plasma is numerically characterised via 2D numerical studies by using VSIM code. The wakefields induced by a single bunch travelling through the plasma were found to vary from 200 MV/m to 3 GV/m for a range of bunch length, bunch radius, and plasma densities. Energy gain for the particles populating the bunch tail through the wakefields driven by the head of the bunch was demonstrated. After determining the achievable field for various beams and plasma configurations, a reference setting was determined for further studies. Considering this reference setting, the beam quality studies were performed for a two-bunch acceleration case. The maximum energy gain as well as the energy spread mitigation by benefiting from the beam loading was investigated by positioning the witness and driver bunches with respect to each other. Emittance growth mechanisms were studied considering the beam-plasma and beam-wakefield interactions. Eventually, regarding the findings, the initial commissioning plans and the aims for the later stages were summarised.
+              </p>
+            </div>
+            <br>
+
+          </div>
+          <br>
+
+          <div class="invited" tabindex="48">
+            <h3>Invited Talks</h3>
+            <br>
+
+            <p><b>2020</b> - <em>The Reflective Mathematician</em></p>
+            <p>Cambridge Ethics in Mathematics Society</p>
+            <br>
+
+            <p><b>2018</b> - <em>Over the Mountain of Abstraction</em></p>
+            <p>The First Meeting on Ethics in Mathematics</p>
+            <br>
+
+            <p><b>2018</b> - <em>The Dangers of Researching in STEM</em></p>
+            <p>Cambridge Ethics in Mathematics Society</p>
+            <br>
+
+            <p><b>2017</b> - Helper</p>
+            <p>Queen Mary, University of London’s Intersections Cryptoparty</p>
+
+          </div>
+          <br>
+
+          <div class="organisation" tabindex="49">
+            <h3>Scientific Activity</h3>
+            <br>
+
+            <p><b>2015-2019</b></p>
+            <p><b>Member</b></p>
+            <p>RHUL ISG and Maths Staff Student Committee</p>
+            <p>Royal Holloway, University of London</p>
+            <div class="publinks">
+              <button onclick="myFunction('ISGSS')" tabindex="50" class="descrip">Expand</button>
+            </div>
+            <div id="ISGSS" class="abstract">
+              <br>
+                <p>Mediated conflicts between staff and students within the department</p>
+                <p>Lead a survey on desk usage within the department</p>
+            </div>
+            <br>
+            <br>
+
+            <p><b>2016-2017</b></p>
+            <p><b>Founder and Organiser</b></p>
+            <p>RHUL Security Ethics Discussion Group</p>
+            <p>Royal Holloway, University of London</p>
+            <div class="publinks">
+              <button onclick="myFunction('SERT')" tabindex="51" class="descrip">Expand</button>
+            </div>
+            <div id="SERT" class="abstract">
+              <br>
+                <p>Lead a weekly discussion group on the implications on cyber-security technologies.</p>
+            </div>
+            <br>
+            <br>
+
+            <p><b>2014-2015</b></p>
+            <p><b>Representative</b></p>
+            <p>UoM Physics Department Staff Student Committee</p>
+            <p>University of Manchester</p>
+            <div class="publinks">
+              <button onclick="myFunction('PSS')" tabindex="52" class="descrip">Expand</button>
+            </div>
+            <div id="PSS" class="abstract">
+              <br>
+                <p>Lobbied to overturn the department’s policy to ban calculators in exams.</p>
+            </div>
+            <br>
+            <br>
+
+          </div>
+
+          <!--<div class="funding">
+          </div>
+          <br>
+          <div class="teaching">
+          </div>
+          <br>
+          <div class="supervision">
+          </div>
+          <br>
+          <div class="collaborations">
+          </div>
+          <br>-->
+          <div class="other" tabindex="53">
+            <h3>Other Experience</h3>
+            <br>
+
+            <p><b>2014</b></p>
+            <p><b>Intern</b></p>
+            <p><a href="https://www.maths.manchester.ac.uk/research/themes/continuum-mechanics/" tabindex="54">University of Manchester’s Mathematical Physics group</a></p>
+            <p>University of Manchester</p>
+            <p>UK</p>
+            <div class="publinks">
+              <button onclick="myFunction('Mech')" tabindex="55" class="descrip">Expand</button>
+            </div>
+            <div id="Mech" class="abstract">
+              <br>
+                <p>Created a software package, using python and the mayavi graphing library, to model and visualise the motion of groups of vortices on different.</p>
+            </div>
+            <br>
+            <br>
+
+            <p><b>2012</b></p>
+            <p><b>Intern</b></p>
+            <p><a href="http://www.qct.manchester.ac.uk/" tabindex="56">UoM Quantum Chemical Topology</a></p>
+            <p>Supervisor: <a href="https://www.research.manchester.ac.uk/portal/en/researchers/paul-popelier(8d3164ff-0f67-4b42-ae64-c6bdcf9edf96)/contact.html" tabindex="57">Prof. Paul Popelier</a>
+            <p>University of Manchester</p>
+            <p>UK</p>
+            <div class="publinks">
+              <button onclick="myFunction('Pop')" tabindex="58" class="descrip">Expand</button>
+            </div>
+            <div id="Pop" class="abstract">
+              <br>
+                <p>Analysed a simulation package, written in Fortran 90, to document the underlying mathematics.</p>
+                <p>Improved the simulation by implementing more physically realistic a algorithm.</p>
+            </div>
+            <br>
+            <br>
+
+          </div>
+
+        </div>
+      </div>
+
+
+
+      <div class="footer-container">
+        <div class="footer">
+          <div class="find-at">
+            <div class="find-me"><h5>Follow me</h5></div>
+            <div class="meeds">
+            <a href="https://twitter.com/bisimilarjames" tabindex="59"><img src="icons\twitter_logo.png" style="width:21px;height:21px;"></a>
+            </div>
+            <div class="meeds">
+            <a href="" tabindex="60"><img src="icons\medium_logo.png" style="width:21px;height:21px;"></a>
+            </div>
+            <div class="meeds">
+            <a href="https://github.com/bisimilarjames" tabindex="61"><img src="icons\github_logo.png" style="width:21px;height:21px;"></a>
+            </div>
+            <div class="meeds">
+            <a href="https://orcid.org/0000-0003-0477-7573" tabindex="62"><img src="icons\orcid_logo.png" style="width:21px;height:21px;"></a>
+            </div>
+            <div class="meeds">
+            <a href="https://scholar.google.ca/citations?user=BfNOh24AAAAJ&hl=en" tabindex="63"><img src="icons\google_logo.png" style="width:21px;height:21px;"></a>
+            </div>
+            <div class="meeds">
+            <a href="https://dblp.org/pid/191/9491.html" tabindex="64"><img src="icons\dblp_logo.png" style="width:21px;height:21px;"></a>
+            </div>
+            <div class="meeds">
+            <a href="https://www.researchgate.net/profile/James-Wright-55" tabindex="65"><img src="icons\researchgate_logo.png" style="width:21px;height:21px;"></a>
+            </div>
+            <div class="meeds">
+            <a href="https://pure.royalholloway.ac.uk/portal/en/persons/james-wright(eede2c5f-db2c-468f-ade0-0f3a085a2faa).html" tabindex="66"><img src="icons\rhul_logo.jpg" style="width:42px;height:21px;"></a>
+            </div>
+            <div class="meeds">
+            <a href="https://linkedin.com/in/james-w-aa3368101" tabindex="67"><img src="icons\linkedin_logo.png" style="width:21px;height:21px;"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script>
+      function myFunction(DIVID) {
+        var x = document.getElementById(DIVID);
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      };
+
+      function decode(a) {
+        return a.replace(/[a-zA-Z]/g, function(c){
+          return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13)
+                                     ? c : c - 26);
+        })
+      };
+
+      function openMailer(element) {
+      var part1 = "znv";
+      var part2 = "ygb";
+      var partc = String.fromCharCode(Math.pow(2,6)-6);
+      var part3 = "SvefgAnzr";
+      var partp = String.fromCharCode(Math.pow(6,2)+10);
+      var part4 = "ZvqqyrVavgvny";
+      var part5 = "YnfgAnzr";
+      var part6 = "cebgbpby";
+      var part7 = String.fromCharCode(Math.pow(2,6));
+      var part8 = "tznvy";
+      var part9 = "pbz";
+      var y = decode(part1 + part2 + partc + part3 + partp + part4 + partp + part5 + partp + part6 + part7 + part8 + partp + part9);
+      element.setAttribute("href", y);
+      element.setAttribute("onclick", "");
+      };
+    </script>
+
+  </body>
+</html>

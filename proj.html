@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--<script type="text/javascript" src="js/pw.js"></script>-->
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <link rel='stylesheet' href='AcademicGlobalStyle.css'/>
+    <link rel='stylesheet' href='proj.css'/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,300;1,400&family=Montserrat&display=swap" rel="stylesheet">
+    <title>James G. Wright Security Reseacher</title>
+    <link rel="icon" href="icons/tri.png">
+  </head>
+
+  <body>
+    <div class="page">
+      <div class="title-container">
+        <div class="title">
+          <h1>James G. Wright</h1>
+          <h3> Security protocol researcher</h3>
+        </div>
+      </div>
+      <div class="menu-container">
+        <div class="menu">
+          <a class="menu-button" href="index.html" tabindex="1">Home</a>
+          <a class="menu-button" href="cv.html" tabindex="2">CV</a>
+          <a class="menu-button" href="cv.html#pubs" tabindex="3">Publications</a>
+          <a class="menu-button" href="proj.html" tabindex="4">Projects</a>
+          <!--<a class="menu-button" href="blog.html">Blog</a>
+          <a class="menu-button" href="misc.html">Misc</a>
+          <a class="menu-button" href="contact.html" tabindex="5">Contact</a>-->
+          <a class="menu-button" onclick='openMailer(this);' href="" tabindex="5">Contact</a>
+        </div>
+      </div>
+
+
+      <div class="sidebar">
+          <img src="gallery\avatar1.jpg" alt="A potrait of James G. Wright"  style="width:175px;height:175px;" class="port">
+      </div>
+
+      <div class="content">
+        <div class="project" tabindex="6">
+          <h2>Projects</h2>
+          <br>
+
+          <div class="ackack" tabindex="7">
+            <h3>Academic Projects</h3>
+          </div>
+          <br>
+
+          <div class="pers" tabindex="8">
+            <h3>Personal Projects</h3>
+            <br>
+            <p><b>Conway's Game of Life app</b></p>
+            <div class="publinks">
+              <a href="https://github.com/bisimilarjames/conways_game" tabindex="9">Link</a>
+              <button onclick="myFunction('Conway')" tabindex="10" class="cab">Summary</button>
+            </div>
+            <div id="Conway" class="abstract">
+              <br>
+              <p>A Conway game of life app that has a GUI and various grid topolgies</p>
+              <br>
+              <p>Status: <b>Ongoing</b></p>
+            </div>
+            <br>
+            <br>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="footer-container">
+        <div class="footer">
+          <div class="find-at">
+            <div class="find-me"><h5>Follow me</h5></div>
+            <div class="meeds">
+            <a href="https://twitter.com/bisimilarjames" tabindex="11"><img src="icons\twitter_logo.png" style="width:21px;height:21px;"></a>
+            </div>
+            <div class="meeds">
+            <a href="" tabindex="12"><img src="icons\medium_logo.png" style="width:21px;height:21px;"></a>
+            </div>
+            <div class="meeds">
+            <a href="https://github.com/bisimilarjames" tabindex="13"><img src="icons\github_logo.png" style="width:21px;height:21px;"></a>
+            </div>
+            <div class="meeds">
+            <a href="https://orcid.org/0000-0003-0477-7573" tabindex="14"><img src="icons\orcid_logo.png" style="width:21px;height:21px;"></a>
+            </div>
+            <div class="meeds">
+            <a href="https://scholar.google.ca/citations?user=BfNOh24AAAAJ&hl=en" tabindex="14"><img src="icons\google_logo.png" style="width:21px;height:21px;"></a>
+            </div>
+            <div class="meeds">
+            <a href="https://dblp.org/pid/191/9491.html" tabindex="15"><img src="icons\dblp_logo.png" style="width:21px;height:21px;"></a>
+            </div>
+            <div class="meeds">
+            <a href="https://www.researchgate.net/profile/James-Wright-55" tabindex="16"><img src="icons\researchgate_logo.png" style="width:21px;height:21px;"></a>
+            </div>
+            <div class="meeds">
+            <a href="https://pure.royalholloway.ac.uk/portal/en/persons/james-wright(eede2c5f-db2c-468f-ade0-0f3a085a2faa).html" tabindex="17"><img src="icons\rhul_logo.jpg" style="width:42px;height:21px;"></a>
+            </div>
+            <div class="meeds">
+            <a href="https://linkedin.com/in/james-w-aa3368101" tabindex="18"><img src="icons\linkedin_logo.png" style="width:21px;height:21px;"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function myFunction(DIVID) {
+        var x = document.getElementById(DIVID);
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      };
+
+      function decode(a) {
+        return a.replace(/[a-zA-Z]/g, function(c){
+          return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13)
+                                     ? c : c - 26);
+        })
+      };
+
+      function openMailer(element) {
+      var part1 = "znv";
+      var part2 = "ygb";
+      var partc = String.fromCharCode(Math.pow(2,6)-6);
+      var part3 = "SvefgAnzr";
+      var partp = String.fromCharCode(Math.pow(6,2)+10);
+      var part4 = "ZvqqyrVavgvny";
+      var part5 = "YnfgAnzr";
+      var part6 = "cebgbpby";
+      var part7 = String.fromCharCode(Math.pow(2,6));
+      var part8 = "tznvy";
+      var part9 = "pbz";
+      var y = decode(part1 + part2 + partc + part3 + partp + part4 + partp + part5 + partp + part6 + part7 + part8 + partp + part9);
+      element.setAttribute("href", y);
+      element.setAttribute("onclick", "");
+
+      };
+    </script>
+  </body>
+</html>

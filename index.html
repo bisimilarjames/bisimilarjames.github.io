@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--<script type="text/javascript" src="js/pw.js"></script>-->
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <link rel='stylesheet' href='AcademicGlobalStyle.css'/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,300;1,400&family=Montserrat&display=swap" rel="stylesheet">
+    <title>James G. Wright Security Reseacher</title>
+    <link rel="icon" href="icons/tri.png">
+  </head>
+
+  <body>
+    <div class="page">
+      <div class="title-container">
+        <div class="title">
+          <h1>James G. Wright</h1>
+          <h3> Security protocol researcher</h3>
+        </div>
+      </div>
+      <div class="menu-container">
+        <div class="menu">
+          <a class="menu-button" href="index.html" tabindex="1">Home</a>
+          <a class="menu-button" href="cv.html" tabindex="2">CV</a>
+          <a class="menu-button" href="cv.html#pubs" tabindex="3">Publications</a>
+          <a class="menu-button" href="proj.html" tabindex="4">Projects</a>
+          <!--<a class="menu-button" href="blog.html">Blog</a>
+          <a class="menu-button" href="misc.html">Misc</a>
+          <a class="menu-button" href="contact.html" tabindex="5">Contact</a>-->
+          <a class="menu-button" onclick='openMailer(this);' href="" tabindex="5">Contact</a>
+        </div>
+      </div>
+
+
+      <div class="sidebar">
+          <img src="gallery\avatar1.jpg" alt="A potrait of James G. Wright"  style="width:175px;height:175px;" class="port">
+      </div>
+
+      <div class="content">
+        <div class="home" tabindex="6">
+          <h2>About me</h2>
+          <br>
+          <p>My work focuses on the development of heterodox adversary models and security promises for use in protocol verification.
+             The development is driven by the security needs of cyber-physical and distributed systems.
+             I am also interested in the philosophy of risk modelling in cyber-physical systems and socio-technical security.
+          </p>
+          <br>
+
+          <p>During the 2020 I was a researcher for NTNU's CISaR group, where I produced a survey of potential attack vectors for a grid level energy storage systems.</p>
+          <br>
+
+          <p>I graduated with a PhD from the Information Security Group at Royal Holloway, University of London, in 2020 under the supervision of
+          <a href="http://www.wolthusen.com/" tabindex="7">Stephen D. Wolthusen</a>.
+          My doctoral research investigated the security of the smart grid protocol IEC/ISO 61850.
+          I developed a queueing network based formal method to verify the standard's security promises of availability and synchronisation of state.
+          Using this method I was able to demonstrate various de-synchronisation and packet injection attacks within IEC/ISO 61850 and other smart grid standards.</p>
+          <br>
+
+          <p>Before joining Royal Holloway, I obtained a MPhys in Physics with Theoretical Physics from the University of Manchester.
+          My specialisation was the theory of particle accelerator. For my thesis I developed mathemaical models of plasma wakefield accelerators.
+          During my studies, I briefly worked as an accelerator physicist at the Cockcroft Institue, Daresbury Laboratory.</p>
+        </div>
+      </div>
+
+
+      <div class="footer-container">
+        <div class="footer">
+          <div class="find-at">
+            <div class="find-me"><h5>Follow me</h5></div>
+            <div class="meeds">
+            <a href="https://twitter.com/bisimilarjames" tabindex="8"><img src="icons\twitter_logo.png" style="width:21px;height:21px;"></a>
+            </div>
+            <div class="meeds">
+            <a href="" tabindex="9"><img src="icons\medium_logo.png" style="width:21px;height:21px;"></a>
+            </div>
+            <div class="meeds">
+            <a href="https://github.com/bisimilarjames" tabindex="10"><img src="icons\github_logo.png" style="width:21px;height:21px;"></a>
+            </div>
+            <div class="meeds">
+            <a href="https://orcid.org/0000-0003-0477-7573" tabindex="11"><img src="icons\orcid_logo.png" style="width:21px;height:21px;"></a>
+            </div>
+            <div class="meeds">
+            <a href="https://scholar.google.ca/citations?user=BfNOh24AAAAJ&hl=en" tabindex="12"><img src="icons\google_logo.png" style="width:21px;height:21px;"></a>
+            </div>
+            <div class="meeds">
+            <a href="https://dblp.org/pid/191/9491.html" tabindex="13"><img src="icons\dblp_logo.png" style="width:21px;height:21px;"></a>
+            </div>
+            <div class="meeds">
+            <a href="https://www.researchgate.net/profile/James-Wright-55" tabindex="14"><img src="icons\researchgate_logo.png" style="width:21px;height:21px;"></a>
+            </div>
+            <div class="meeds">
+            <a href="https://pure.royalholloway.ac.uk/portal/en/persons/james-wright(eede2c5f-db2c-468f-ade0-0f3a085a2faa).html" tabindex="15"><img src="icons\rhul_logo.jpg" style="width:42px;height:21px;"></a>
+            </div>
+            <div class="meeds">
+            <a href="https://linkedin.com/in/james-w-aa3368101" tabindex="16"><img src="icons\linkedin_logo.png" style="width:21px;height:21px;"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      function decode(a) {
+        return a.replace(/[a-zA-Z]/g, function(c){
+          return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13)
+                                     ? c : c - 26);
+        })
+      };
+
+      function openMailer(element) {
+      var part1 = "znv";
+      var part2 = "ygb";
+      var partc = String.fromCharCode(Math.pow(2,6)-6);
+      var part3 = "SvefgAnzr";
+      var partp = String.fromCharCode(Math.pow(6,2)+10);
+      var part4 = "ZvqqyrVavgvny";
+      var part5 = "YnfgAnzr";
+      var part6 = "cebgbpby";
+      var part7 = String.fromCharCode(Math.pow(2,6));
+      var part8 = "tznvy";
+      var part9 = "pbz";
+      var y = decode(part1 + part2 + partc + part3 + partp + part4 + partp + part5 + partp + part6 + part7 + part8 + partp + part9);
+      element.setAttribute("href", y);
+      element.setAttribute("onclick", "");
+
+      };
+    </script>
+
+  </body>
+</html>
